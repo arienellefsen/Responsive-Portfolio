@@ -1,0 +1,222 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: url("../images/green_cup.png") #a2a892 repeat;
+    color: #777;
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+header {
+    background: #fff;
+    height: 90px;
+    border-bottom: 3px solid #cccccc;
+    margin-bottom: 40px;
+    padding-top: 0px;
+}
+
+.logo {
+    background: #4aaaa5;
+    width: 320px;
+    height: 80px;
+    color: #fff;
+    float: left;
+    padding: 5px;
+    text-align: center;
+}
+
+.logo h1 {
+    padding-top: 22px;
+}
+
+nav ul {
+    float: right;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding-top: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-right: 10px;
+    border-left: 1px solid #ccc;
+}
+
+nav ul li a {
+    color: #777;
+    text-decoration: none;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 11px;
+    -webkit-transition: color 2s;
+    /* Safari */
+    transition: color 2s;
+}
+
+nav ul li:first-child {
+    border-left: none;
+}
+
+nav ul li a:hover {
+    color: #4aaaa5;
+}
+
+footer {
+    background: #222;
+    border-top: 10px solid #4aaaa5;
+    margin-top: 140px;
+    text-align: center;
+    color: #fff;
+    padding-top: 10px;
+}
+
+footer.sticky-footer {
+    height: 82px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.col-left {
+    width: 670px;
+    float: left;
+    background: #fff;
+}
+
+.content {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.content h1 {
+    font-size: 24px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.content p {
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.col-right {
+    width: 270px;
+    float: right;
+    background: #fff;
+    margin-left: 10px;
+}
+
+img.img-profile {
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+img.logo-social-media {
+    padding-right: 12px;
+    padding-top: 20px;
+}
+
+input[type=text],
+textarea {
+    width: 100%;
+    padding: 12px 6px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    color: #777;
+}
+
+form {
+    padding-top: 20px;
+}
+
+input[type=button] {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+img.portfolio-images {
+    width: 187px;
+    height: 142px;
+}
+
+.portfolio {
+    float: left;
+    margin-bottom: 30px;
+    width: 187px;
+    height: 142px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+p.portfolio-description {
+    background: #4aaaa5;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-right: 15px;
+    position: relative;
+    bottom: 48px;
+    width: 167px;
+}
+
+.portfolio-images:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media only screen and (max-width: 640px) {
+    .wrapper,
+    .col-left,
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .col-right {
+        width: 100%;
+        padding-bottom: 120px;
+    }
+    header {
+        background: #fff;
+        height: 180px;
+    }
+    footer.sticky-footer {
+        height: 82px;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .wrapper,
+    .col-left,
+    .col-right {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    header {
+        background: #fff;
+        height: 180px;
+    }
+}
